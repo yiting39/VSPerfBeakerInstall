@@ -243,7 +243,7 @@ wget $DPDK_TOOL_URL -P /root/dpdkrpms/$DPDK_VERSION/.
 
 
 
-git clone https://github.com/ctrautma/vmscripts.git /root/vmscripts 1>/root/post_install.log 2>&1
+git clone https://github.com/yiting39/vmscripts.git /root/vmscripts 1>/root/post_install.log 2>&1
 mv /root/vmscripts/* /root/. 1>/root/post_install.log 2>&1
 rm -Rf /root/vmscripts 1>/root/post_install.log 2>&1
 
